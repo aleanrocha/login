@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Login DevClub</title>
+  </head>
+  <body>
+    <main>
+      <form class="form">
+        <h1>Login DevClub</h1>
+        <div class="form-control">
+          <input
+            type="email"
+            name="email"
+            id="eamil"
+            placeholder="Digite seu e-mail"
+            required
+          />
+          <ion-icon name="person-circle-outline"></ion-icon>
+        </div>
+        <div class="form-control">
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Digite sua senha"
+            required
+          />
+          <ion-icon name="lock-closed-outline"></ion-icon>
+        </div>
+        <div class="remember-forgot">
+          <label>
+            <input type="checkbox" checked />
+            Lembrar minha senha
+          </label>
+          <a href="#">Esqueci minha senha</a>
+        </div>
+        <input type="submit" value="Login" class="login" />
+        <div class="register-link">
+          <p>Não tem uma conta? <a href="#">Registre-se</a></p>
+        </div>
+      </form>
+    </main>
+  </body>
+  <script
+    type="module"
+    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+  ></script>
+  <script
+    nomodule
+    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+  ></script>
+</html>
